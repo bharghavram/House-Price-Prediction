@@ -16,13 +16,13 @@ warnings.filterwarnings('ignore')
 
 # Configuration
 IMG_SIZE = 229
-MODEL_PATH = "D:\\flask\\HousePricePrediction\\price prediction\\gradient_boosting_model.joblib"
-PRICE_LOC_ENCODER="D:\\flask\\HousePricePrediction\\price prediction\\location_encoder.joblib"
-AREA_SCALER="D:\\flask\\HousePricePrediction\\price prediction\\area_scaler .joblib"
-PRICE_SCALER="D:\\flask\\HousePricePrediction\\price prediction\\price_scaler.joblib"
+MODEL_PATH = "path of\\gradient_boosting_model.joblib"
+PRICE_LOC_ENCODER="path of\\location_encoder.joblib"
+AREA_SCALER="path of\price prediction\\area_scaler .joblib"
+PRICE_SCALER="path of\\price prediction\\price_scaler.joblib"
 # Location prediction
-LOC_MODEL_PATH = "D:\\flask\\HousePricePrediction\\location_prediction\\location_model_complete.h5"
-LOC_ENCODER_PATH = "D:\\flask\\HousePricePrediction\\location_prediction\\location_label_encoder.pkl"
+LOC_MODEL_PATH = "path of\\location_prediction\\location_model_complete.h5"
+LOC_ENCODER_PATH = "path of\\location_prediction\\location_label_encoder.pkl"
 
 # Feature names used during training
 
